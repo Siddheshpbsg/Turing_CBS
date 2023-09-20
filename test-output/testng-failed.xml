@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.cbs.testcases.IndividualcustomerTestCases">
+        <methods>
+          <include name="Customer_KYC_Staff_Cust"/>
+          <include name="setUp"/>
+          <include name="create_Staff_Cust"/>
+          <include name="Customer_KYC_Regular"/>
+          <include name="create_Customer_Indv"/>
+          <include name="tearDown"/>
+          <include name="Customer_KYC_Sr_Citizen"/>
+          <include name="create_Sr_Citizen"/>
+          <include name="Customer_KYC_minor"/>
+          <include name="create_Minor_Cust"/>
+        </methods>
+      </class> <!-- com.cbs.testcases.IndividualcustomerTestCases -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
