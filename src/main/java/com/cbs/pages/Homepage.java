@@ -56,6 +56,9 @@ public class Homepage extends TestBase
 	@FindBy(xpath="//a[text()='Chequebook']")
 	WebElement Chequebook;
 	
+	@FindBy(xpath="//*[@id=\"jumbotron\"]/div[2]/div[1]/div[5]/div[3]/a")
+	WebElement Clearing_Outward;
+	
 	public Homepage()
 	{
 		PageFactory.initElements(driver, this);
@@ -159,6 +162,12 @@ public class Homepage extends TestBase
 		Thread.sleep(2000);
 		Chequebook.click();
 		return new ChequebookPage();
+	}
+	
+	public Clearing_Outward clickonClearingOutward()
+	{
+		Clearing_Outward.click();
+		return new Clearing_Outward();
 	}
 	
 }

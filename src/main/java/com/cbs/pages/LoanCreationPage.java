@@ -1173,4 +1173,13 @@ public class LoanCreationPage extends TestBase
 		logout.click();
 		Thread.sleep(3000);
 	}
+	
+	public void New_CC_Account() throws Exception
+	{
+		Select loan_type=new Select(Loan_Type);
+		loan_type.selectByIndex(2);
+		Thread.sleep(1000);
+		NewAccount.click();
+		Thread.sleep(2000);
+	}
 }

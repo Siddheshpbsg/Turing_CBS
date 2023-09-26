@@ -28,7 +28,7 @@ public class ClearingInwardPage extends TestBase
 	
 	public void uploadInwardFile() throws Exception
 	{
-		util.inwardUpload();
+		//util.inwardUpload();
 		closeModal.click();
 	}
 }

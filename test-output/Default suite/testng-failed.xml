@@ -3,20 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.cbs.testcases.IndividualcustomerTestCases">
+      <class name="com.cbs.testcases.LoanTestCases">
         <methods>
-          <include name="Customer_KYC_Staff_Cust"/>
-          <include name="setUp"/>
-          <include name="create_Staff_Cust"/>
-          <include name="Customer_KYC_Regular"/>
-          <include name="create_Customer_Indv"/>
+          <include name="createNewCCAccount"/>
           <include name="tearDown"/>
-          <include name="Customer_KYC_Sr_Citizen"/>
-          <include name="create_Sr_Citizen"/>
-          <include name="Customer_KYC_minor"/>
-          <include name="create_Minor_Cust"/>
+          <include name="setUp"/>
         </methods>
-      </class> <!-- com.cbs.testcases.IndividualcustomerTestCases -->
+      </class> <!-- com.cbs.testcases.LoanTestCases -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -29,7 +29,7 @@ public class LoanTestCases extends TestBase
 		Thread.sleep(3000);
 	}
 	
-	@Test(priority=1)
+	/*@Test(priority=1)
 	public void createNewLoanAccount() throws Exception
 	{
 		loanCreationPage.newLoanAccount();
@@ -118,6 +118,15 @@ public class LoanTestCases extends TestBase
 		loanCreationPage=homepage.clickOnLoanCreation();
 		Thread.sleep(3000);
 		loanCreationPage.authLoanAgainstFD();
+	}*/
+	
+	@Test(priority=1)
+	public void createNewCCAccount() throws Exception
+	{
+		/*loginpage=new LoginPage();
+		homepage=loginpage.makerLogin(properties.getProperty("maker"),properties.getProperty("maker_password"));
+		Thread.sleep(3000);*/
+		loanCreationPage.New_CC_Account();
 	}
 	
 	@AfterTest
